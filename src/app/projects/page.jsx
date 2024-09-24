@@ -184,29 +184,6 @@ export default function Projects() {
     Tout Afficher
   </button>
 </div>
-
-      {/* <div className="flex space-x-4 mb-6">
-        {skills.map((skill) => (
-          <button
-            key={skill}
-            onClick={() => setSelectedSkill(skill)}
-            className={`py-2 px-4 rounded-lg transition-colors duration-300 ${
-              selectedSkill === skill
-                ? "bg-indigo-600 text-white"
-                : "bg-purple-400 text-gray-800 text-sm  hover:bg-indigo-600 hover:text-white"
-            }`}
-          >
-            {skill}
-          </button>
-        ))}
-        <button
-          onClick={() => setSelectedSkill(null)}
-          className="py-2 px-4 bg-purple-400 rounded-lg hover:bg-indigo-600 hover:text-white transition-colors duration-300"
-        >
-          Tout Afficher
-        </button>
-      </div> */}
-
 <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 px-4 md:px-16">
   {filteredProjects.map((project) => (
     <div
@@ -225,9 +202,6 @@ export default function Projects() {
     </div>
   ))}
 </div>
-
-
-      {/* Modal */}
       {selectedProject && (
         <Modal
           project={selectedProject}

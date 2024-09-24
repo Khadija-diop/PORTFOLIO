@@ -5,9 +5,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#D2D2EB] to-white flex items-center justify-center rounded-l-full rounded-r-full">
-    {/* Conteneur principal */}
     <div className="flex items-center justify-between w-full max-w-6xl p-8 ">
-      {/* Texte à gauche */}
       <div className="flex-1 animate-fade-in">
         <h1 className="text-5xl font-bold text-blue-900 mb-4 drop-shadow-lg">
           Bienvenue sur mon portfolio
@@ -22,7 +20,6 @@ export default function Home() {
         </Link>
       </div>
 
-      {/* Image à droite */}
       <div className="flex-1 flex justify-end animate-slide-up">
         <Image
           src="/iabac.png"
