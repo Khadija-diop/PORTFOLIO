@@ -27,7 +27,7 @@ const About = ({ onSkillSelect }) => {
           Bootstrap, GitHub, JavaScript, React, Next.js, Node.js, Tailwind CSS et Styled Components</strong>. <br />
           Mon parcours m&#39;a permis de réaliser plusieurs projets enrichissants qui ont renforcé ma maîtrise 
           de ces technologies. Actuellement, je me tourne vers le game design, un domaine qui me fascine 
-          profondément, et j&#39;ai hâte d'apprendre et de développer de nouvelles compétences dans ce domaine.
+          profondément, et j&#39;ai hâte d&#39;apprendre et de développer de nouvelles compétences dans ce domaine.
         </p>
       </section>
       
