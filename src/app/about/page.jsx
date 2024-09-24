@@ -23,11 +23,11 @@ const About = ({ onSkillSelect }) => {
         <h2 className="text-3xl font-semibold mb-4 text-indigo-600">Parcours</h2>
         <p className="text-lg text-center leading-relaxed text-gray-700">
           Je suis une étudiante passionnée de technologie, spécialisée dans le développement web mobile. 
-          J'ai acquis des compétences solides dans divers langages et frameworks, notamment : <br /><strong className='text-indigo-600'> HTML, CSS, 
+          J&#39;ai acquis des compétences solides dans divers langages et frameworks, notamment : <br /><strong className='text-indigo-600'> HTML, CSS, 
           Bootstrap, GitHub, JavaScript, React, Next.js, Node.js, Tailwind CSS et Styled Components</strong>. <br />
-          Mon parcours m'a permis de réaliser plusieurs projets enrichissants qui ont renforcé ma maîtrise 
+          Mon parcours m&#39;a permis de réaliser plusieurs projets enrichissants qui ont renforcé ma maîtrise 
           de ces technologies. Actuellement, je me tourne vers le game design, un domaine qui me fascine 
-          profondément, et j'ai hâte d'apprendre et de développer de nouvelles compétences dans ce domaine.
+          profondément, et j&#39;ai hâte d'apprendre et de développer de nouvelles compétences dans ce domaine.
         </p>
       </section>
       
@@ -38,7 +38,7 @@ const About = ({ onSkillSelect }) => {
             <div
               key={skill.name}
               className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-lg transform transition-all duration-300 hover:scale-110 hover:shadow-2xl cursor-pointer"
-              onClick={() => onSkillSelect(skill.name)} // Appelle la fonction de sélection ici
+              onClick={() => onSkillSelect(skill.name)}
             >
               <span className="text-4xl">{skill.icon}</span>
               <span className="text-xl font-bold text-gray-800">{skill.name}</span>

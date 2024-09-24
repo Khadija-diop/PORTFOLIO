@@ -12,7 +12,7 @@ const projects = [
     skills: ["Next.js", "Tailwind CSS"],
   },
   {
-    title: "Site e-commerce",
+    title: "E-commerce",
     description: "Une reproduction d'un site e-commerce de mode.",
     link: "https://khadijac-glitch.github.io/FAYNARA/",
     github: "https://github.com/Khadijac-glitch/FAYNARA",
@@ -36,7 +36,7 @@ const projects = [
     skills: ["Next.js", "Tailwind CSS", "Node.js"],
   },
   {
-    title: "FadjMa",
+    title: "API",
     description: "Un portfolio personnel construit avec Next.js.",
     link: "",
     github: "",
@@ -52,7 +52,7 @@ const projects = [
     skills: ["React"],
   },
   {
-    title: "Todo",
+    title: "Sneakers",
     description: "Un portfolio personnel construit avec Next.js.",
     link: "https://khadijac-glitch.github.io/E-commerce-product-page/",
     github: "https://github.com/Khadijac-glitch/E-commerce-product-page",
@@ -68,7 +68,7 @@ const projects = [
     skills: ["HTML", "CSS"],
   },
   {
-    title: "",
+    title: "E-commerce",
     description: "Un portfolio personnel construit avec Next.js.",
     link: "https://khadijac-glitch.github.io/BOOTSTRAP7/",
     github: "https://github.com/Khadijac-glitch/BOOTSTRAP7",
@@ -76,7 +76,7 @@ const projects = [
     skills: ["Bootstrap"],
   },
   {
-    title: "CoinAfrique",
+    title: "Calculatrice",
     description: "Un portfolio personnel construit avec Next.js.",
     link: "https://khadijac-glitch.github.io/CALCULATOR/",
     github: "https://github.com/Khadijac-glitch/CALCULATOR",
@@ -84,7 +84,7 @@ const projects = [
     skills: ["React"],
   },
   {
-    title: "CoinAfrique",
+    title: "Portfolio en Bootstraap",
     description: "Un portfolio personnel construit avec Next.js.",
     link: "https://khadijac-glitch.github.io/CALCULATOR/",
     github: "https://github.com/Khadijac-glitch/CALCULATOR",
@@ -171,7 +171,7 @@ export default function Projects() {
       className={`py-1 px-2 rounded-md transition-colors duration-300 text-xs ${
         selectedSkill === skill
           ? "bg-indigo-600 text-white"
-          : "bg-purple-400 text-gray-800 hover:bg-indigo-600 hover:text-white"
+          : "bg-purple-500 text-white hover:bg-purple-600 hover:text-white"
       }`}
     >
       {skill}
