@@ -13,13 +13,13 @@ export default function Home() {
           Bienvenue sur mon portfolio
         </h1>
         <p className="text-lg text-blue-800 mt-4 mb-4 max-w-2xl text-center">
-        Je m'appelle Khady Diop, étudiante en Licence Professionnelle Métiers du jeu vidéo:
+        Je m&#39;appelle Khady Diop, étudiante en Licence Professionnelle Métiers du jeu vidéo:
           Level design et Game design. Passionnée par les nouvelles 
-         technologies, j'ai également fait une licence en développement web mobile.
-          Grâce à ce parcours, je veux développé une double compétence dans la création d'expériences
-           interactives immersives et d'applications performantes. Mon objectif est de combiner
-          ces deux univers pour concevoir des produits innovants qui enrichissent l'expérience utilisateur,
-           que ce soit dans le domaine du jeu vidéo ou du développement d'applications. <br /> <br />
+         technologies, j&#39;ai également fait une licence en développement web mobile.
+          Grâce à ce parcours, je veux développé une double compétence dans la création d&#39;expériences
+           interactives immersives et d&#39;applications performantes. Mon objectif est de combiner
+          ces deux univers pour concevoir des produits innovants qui enrichissent l&#39;expérience utilisateur,
+           que ce soit dans le domaine du jeu vidéo ou du développement d&#39;applications. <br /> <br />
 
            <Link href="#projects">
           <p className="bg-purple-500 text-white py-4 px-6 rounded-full text-md font-medium shadow-lg hover:bg-purple-600

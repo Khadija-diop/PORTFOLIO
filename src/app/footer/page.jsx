@@ -19,7 +19,7 @@ export default function Footer() {
 
         <div className="flex space-x-4 my-4 md:my-0">
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/khadij_nour"
             className="text-purple-400 hover:text-purple-600"
           >
             <FaSquareInstagram />
@@ -37,7 +37,7 @@ export default function Footer() {
             <FaSquareTwitter />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/khady-diop-4b1abb257/"
             className="text-purple-400 hover:text-purple-600"
           >
             <FaLinkedin />
