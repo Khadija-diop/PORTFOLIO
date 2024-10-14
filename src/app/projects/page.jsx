@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 
 const projects = [
@@ -158,50 +159,49 @@ export default function Projects() {
       id="projects"
       className="max-w-5xl min-h-screen mx-auto my-10 p-8 bg-gradient-to-r from-indigo-50 to-white shadow-xl rounded-xl p-8"
     >
-      
       <h1 className="text-5xl text-center font-extrabold text-indigo-600 mb-10">
         Mes Projets
       </h1>
 
       <div className="flex space-x-2 mb-4">
-  {skills.map((skill) => (
-    <button
-      key={skill}
-      onClick={() => setSelectedSkill(skill)}
-      className={`py-1 px-2 rounded-md transition-colors duration-300 text-xs ${
-        selectedSkill === skill
-          ? "bg-indigo-600 text-white"
-          : "bg-purple-500 text-white hover:bg-purple-600 hover:text-white"
-      }`}
-    >
-      {skill}
-    </button>
-  ))}
-  <button
-    onClick={() => setSelectedSkill(null)}
-    className="py-1 px-2 bg-purple-400 rounded-md hover:bg-indigo-600 hover:text-white transition-colors duration-300 text-xs"
-  >
-    Tout Afficher
-  </button>
-</div>
-<div className="grid grid-cols-2 sm:grid-cols-3 gap-8 px-4 md:px-16">
-  {filteredProjects.map((project) => (
-    <div
-      key={project.title}
-      className="bg-white p-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl hover:border-4 border-[#D2D2EB] cursor-pointer w-full sm:w-5/6 lg:w-4/5 mx-auto"
-      onClick={() => setSelectedProject(project)}
-    >
-      <img
-        src={project.image}
-        alt={project.title}
-        className="w-full h-48 object-cover rounded-t-lg mb-4"
-      />
-      <h2 className="text-2xl font-semibold text-gray-800">
-        {project.title}
-      </h2>
-    </div>
-  ))}
-</div>
+        {skills.map((skill) => (
+          <button
+            key={skill}
+            onClick={() => setSelectedSkill(skill)}
+            className={`py-1 px-2 rounded-md transition-colors duration-300 text-xs ${
+              selectedSkill === skill
+                ? "bg-indigo-600 text-white"
+                : "bg-purple-500 text-white hover:bg-purple-600 hover:text-white"
+            }`}
+          >
+            {skill}
+          </button>
+        ))}
+        <button
+          onClick={() => setSelectedSkill(null)}
+          className="py-1 px-2 bg-purple-400 rounded-md hover:bg-indigo-600 hover:text-white transition-colors duration-300 text-xs"
+        >
+          Tout Afficher
+        </button>
+      </div>
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 px-4 md:px-16">
+        {filteredProjects.map((project) => (
+          <div
+            key={project.title}
+            className="bg-white p-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl hover:border-4 border-[#D2D2EB] cursor-pointer w-full sm:w-5/6 lg:w-4/5 mx-auto"
+            onClick={() => setSelectedProject(project)}
+          >
+            <Image
+              src={project.image}
+              alt={project.title}
+              className="w-full h-48 object-cover rounded-t-lg mb-4"
+            />
+            <h2 className="text-2xl font-semibold text-gray-800">
+              {project.title}
+            </h2>
+          </div>
+        ))}
+      </div>
       {selectedProject && (
         <Modal
           project={selectedProject}

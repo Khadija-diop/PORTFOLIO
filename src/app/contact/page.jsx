@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
-    <div id="contact" className="min-h-screen bg-gradient-to-b from-[#D2D2EB] to-white text-gray-950 flex items-center justify-center py-12 rounded-l-full rounded-r-full">
+    <div
+      id="contact"
+      className="min-h-screen bg-gradient-to-b from-[#D2D2EB] to-white text-gray-950 flex items-center justify-center py-12 rounded-l-full rounded-r-full"
+    >
       <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 px-6">
         <div className="space-y-6">
           {/* Title with button */}
@@ -22,7 +25,9 @@ export default function Contact() {
             </div>
             <div className="flex items-center">
               <p className="mr-4">Courriel de contact :</p>
-              <p className="text-xl font-bold text-blue-900">khady.diop0407@gmail.com</p>
+              <p className="text-xl font-bold text-blue-900">
+                khady.diop0407@gmail.com
+              </p>
             </div>
           </div>
 
@@ -58,7 +63,7 @@ export default function Contact() {
         </div>
 
         <div className="flex items-center justify-center">
-          <img
+          <Image
             src="/iabac.png"
             alt="Engagez-moi"
             className="rounded-md shadow-lg"
