@@ -1,3 +1,4 @@
+"use client";
 export default function Contact() {
   return (
     <div
@@ -63,7 +64,7 @@ export default function Contact() {
         </div>
 
         <div className="flex items-center justify-center">
-          <Image
+          <img
             src="/iabac.png"
             alt="Engagez-moi"
             className="rounded-md shadow-lg"
