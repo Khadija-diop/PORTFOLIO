@@ -9,8 +9,8 @@ export default function Page() {
   return (
     <div>
     <Home/>  
-    <About/>
     <Projects/>
+    <About/>
     <Contact/>
     <Footer/>
     </div>

@@ -37,7 +37,7 @@ export default function Footer() {
             <FaSquareTwitter />
           </a>
           <a
-            href="https://www.linkedin.com/in/khady-diop-4b1abb257/"
+            href="https://www.linkedin.com/in/khadydiop04/"
             className="text-purple-400 hover:text-purple-600"
           >
             <FaLinkedin />

@@ -11,24 +11,29 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" p-2 bg-[#D2D2EB] fixed w-full z-10 top-0">
+    <nav className=" p-2 bg-[#D2D2EB] fixed w-full z-10 top-0 z-5">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-white text-lg font-bold">
-            <Image src="/logo.png" width={89} height={89} className="" />
+            {/* <Image src="/logo.png" width={89} height={89} className="" /> */}
+
+            <h5 className="text-2xl font-bold text-indigo-700 drop-shadow-lg">
+            Khady Diop <br/> 
+            Programmeuse 
+          </h5>
 
             </Link>
           </div>
           <div className="hidden md:block">
             <div className="flex space-x-4">
-              <Link href="/" className="text-gray-950 hover:bg-purple-600 hover:text-white px-3 py-2 rounded-md text-md font-medium">
+              <Link href="/" className="text-indigo-700 hover:bg-purple-600 hover:text-white px-3 py-2 rounded-md text-md font-medium">
                 Home
               </Link>
-              <Link href="#about" className="text-gray-950 hover:bg-purple-600 hover:text-white px-3 py-2 rounded-md text-md font-medium">
+              <Link href="#about" className="text-indigo-700 hover:bg-purple-600 hover:text-white px-3 py-2 rounded-md text-md font-medium">
                 About
               </Link>
-              <Link href="#contact" className="text-gray-950 hover:bg-purple-600 hover:text-white px-3 py-2 rounded-md text-md font-medium">
+              <Link href="#contact" className="text-indigo-700 hover:bg-purple-600 hover:text-white px-3 py-2 rounded-md text-md font-medium">
                 Contact
               </Link>
             </div>
