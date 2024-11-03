@@ -1,3 +1,5 @@
+"use client"
+import Image from "next/image"
 export default function Contact() {
   return (
     <div id="contact" className="min-h-screen bg-gradient-to-b from-[#D2D2EB] to-white text-gray-950 flex items-center justify-center py-12">
@@ -58,8 +60,10 @@ export default function Contact() {
         </div>
 
         <div className="flex items-center justify-center">
-          <img
+          <Image
             src="/iabac.png"
+            width={500}
+            height={500}
             alt="Engagez-moi"
             className="rounded-md shadow-lg"
           />

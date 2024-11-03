@@ -51,8 +51,9 @@
 // };
 
 // export default About;
+ 
 
-
+"use client"
 import React from 'react';
 import { FaHtml5, FaBootstrap, FaJs, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
 import { SiNextdotjs, SiTailwindcss, SiStyledcomponents } from 'react-icons/si';
@@ -77,12 +78,12 @@ const About = ({ onSkillSelect }) => {
       <section className="mb-12 animate-fade-in">
         <h2 className="text-3xl font-semibold mb-4 text-indigo-700">Parcours</h2>
         <p className="text-lg leading-relaxed text-blue-800 bg-white p-6 rounded-lg shadow-lg transform transition-all duration-300 hover:shadow-2xl">
-          Je suis une passionnée de technologie, j'ai fait une licence en développement web mobile, 
+          Je suis une passionnée de technologie, j&apos;ai fait une licence en développement web mobile, 
           avec des compétences solides dans divers langages et frameworks.
-          Mon parcours m'a permis de réaliser plusieurs projets enrichissants qui ont renforcé ma
-          maîtrise de ces technologies. J'ai également eu l'opportunité de faire un stage en développement web,
+          Mon parcours m&apos;a permis de réaliser plusieurs projets enrichissants qui ont renforcé ma
+          maîtrise de ces technologies. J&apos;ai également eu l&apos;opportunité de faire un stage en développement web,
           une expérience qui a consolidé mes compétences et mon expertise. Actuellement, je me tourne vers le game design,
-          un domaine qui me fascine profondément, et j'ai hâte d'apprendre et de développer de nouvelles compétences dans
+          un domaine qui me fascine profondément, et j&apos;ai hâte d&apos;apprendre et de développer de nouvelles compétences dans
         </p>
       </section>
       
