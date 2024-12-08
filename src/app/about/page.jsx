@@ -42,7 +42,7 @@ const CIcon = () => (
 const About = ({ onSkillSelect }) => {
   const skills = [
     { name: 'Langage C', icon: <CIcon className="text-black-600"/> },
-    { name: 'Langage C++ ', icon: <CppIcon className="text-blue-600" /> },
+    { name: 'Langage', icon: <CppIcon className="text-blue-600" /> },
     { name: 'Unity', icon: <FaUnity className="text-black-600" /> },
     { name: 'Photoshop', icon: <SiAdobephotoshop className="text-blue-600" /> },
     { name: 'HTML', icon: <FaHtml5 className="text-orange-600" /> },
@@ -79,7 +79,7 @@ const About = ({ onSkillSelect }) => {
           {skills.map((skill) => (
             <div
               key={skill.name}
-              className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-lg transform transition-all duration-300 hover:scale-110 hover:shadow-2xl cursor-pointer"
+              className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-lg transform transition-all duration-300 "
               onClick={() => onSkillSelect(skill.name)}
             >
               <span className="text-4xl">{skill.icon}</span>

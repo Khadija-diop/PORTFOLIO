@@ -5,7 +5,7 @@ import {
   FaLinkedin,
   FaSquareTwitter,
 } from "react-icons/fa6";
-import { FaFacebookSquare } from "react-icons/fa";
+import { FaItchIo } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -32,10 +32,10 @@ export default function Footer() {
             <FaSquareInstagram />
           </a>
           <a
-            href="https://facebook.com"
+            href="https://khadijad.itch.io/"
             className="text-purple-400 hover:text-purple-600"
           >
-            <FaFacebookSquare />
+            <FaItchIo />
           </a>
           <a
             href="https://twitter.com"
@@ -44,7 +44,7 @@ export default function Footer() {
             <FaSquareTwitter />
           </a>
           <a
-            href="https://www.linkedin.com/in/khady-diop-4b1abb257/"
+            href="https://www.linkedin.com/in/khadydiop04/"
             className="text-purple-400 hover:text-purple-600"
           >
             <FaLinkedin />

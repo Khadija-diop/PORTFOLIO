@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Contact() {
   return (
     <div id="contact" className="min-h-screen bg-gradient-to-b from-[#D2D2EB] to-white text-gray-950 flex items-center justify-center py-12">
-      <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 px-6">
+      <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-14 px-6">
         <div className="space-y-6">
           {/* Title with button */}
           <div className="flex items-center justify-between">
