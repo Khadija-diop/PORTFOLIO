@@ -18,7 +18,7 @@ const Navbar = () => {
             <Link href="/" className="text-white text-lg font-bold">
             {/* <Image src="/logo.png" width={89} height={89} className="" /> */}
 
-            <h5 className="text-2xl font-bold text-indigo-700 drop-shadow-lg">
+            <h5 className="text-xl font-bold text-indigo-700 drop-shadow-lg">
             Khady Diop <br/> 
             Programmeuse 
           </h5>
@@ -27,13 +27,13 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="flex space-x-4">
-              <Link href="/" className="text-indigo-700 hover:bg-purple-600 hover:text-white px-3 py-2 rounded-md text-md font-medium">
-                Home
+              <Link href="/" className="text-indigo-700 hover:bg-purple-600 hover:text-white px-3 py-2 rounded-md text-md font-bold">
+                Acceuil
               </Link>
-              <Link href="#about" className="text-indigo-700 hover:bg-purple-600 hover:text-white px-3 py-2 rounded-md text-md font-medium">
-                About
+              <Link href="#about" className="text-indigo-700 hover:bg-purple-600 hover:text-white px-3 py-2 rounded-md text-md font-bold">
+                A propos
               </Link>
-              <Link href="#contact" className="text-indigo-700 hover:bg-purple-600 hover:text-white px-3 py-2 rounded-md text-md font-medium">
+              <Link href="#contact" className="text-indigo-700 hover:bg-purple-600 hover:text-white px-3 py-2 rounded-md text-md font-bold">
                 Contact
               </Link>
             </div>

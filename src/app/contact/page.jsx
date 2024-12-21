@@ -3,13 +3,13 @@ import Image from "next/image"
 export default function Contact() {
   return (
     <div id="contact" className="min-h-screen bg-gradient-to-b from-[#D2D2EB] to-white text-gray-950 flex items-center justify-center py-12">
-      <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-14 px-6">
+      <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-20 px-6">
         <div className="space-y-6">
           {/* Title with button */}
           <div className="flex items-center justify-between">
             <h1 className="text-4xl font-bold text-blue-900">Contactez-moi</h1>
             <a
-              href="/CV-khady-diop.pdf" // Mettre le bon lien vers ton fichier CV
+              href="/CV-khady-diop.pdf" 
               download="CV-khady-diop.pdf"
               className="bg-purple-500 text-white px-4 py-2 rounded-md hover:bg-purple-600 transition duration-300"
             >

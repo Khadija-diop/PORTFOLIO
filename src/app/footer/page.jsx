@@ -10,7 +10,7 @@ import { FaItchIo } from "react-icons/fa";
 export default function Footer() {
   return (
     <div className="py-6 bg-[#D2D2EB] shadow-lg">
-      <div className="container mx-auto flex flex-col items-center md:flex-row md:justify-between">
+      <div className="max-w-6xl mx-auto flex flex-col items-center md:flex-row md:justify-between">
         <div className="flex items-center space-x-2">
 
           {/* <Image src="/logo.png"
@@ -37,12 +37,12 @@ export default function Footer() {
           >
             <FaItchIo />
           </a>
-          <a
+          {/* <a
             href="https://twitter.com"
             className="text-purple-400 hover:text-purple-600"
           >
             <FaSquareTwitter />
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/khadydiop04/"
             className="text-purple-400 hover:text-purple-600"

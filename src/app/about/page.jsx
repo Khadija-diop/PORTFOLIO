@@ -46,7 +46,7 @@ const About = ({ onSkillSelect }) => {
     { name: 'Unity', icon: <FaUnity className="text-black-600" /> },
     { name: 'Photoshop', icon: <SiAdobephotoshop className="text-blue-600" /> },
     { name: 'HTML', icon: <FaHtml5 className="text-orange-600" /> },
-    { name: 'GitHub', icon: <FaGithub className="text-black" /> }, // Remplacement de l'icône CSS par GitHub
+    { name: 'GitHub', icon: <FaGithub className="text-black" /> },
     { name: 'Bootstrap', icon: <FaBootstrap className="text-purple-600" /> },
     { name: 'JavaScript', icon: <FaJs className="text-yellow-500" /> },
     { name: 'React', icon: <FaReact className="text-blue-400" /> },
@@ -69,7 +69,7 @@ const About = ({ onSkillSelect }) => {
           Mon parcours m&apos;a permis de réaliser plusieurs projets enrichissants qui ont renforcé ma
           maîtrise de ces technologies. J&apos;ai également eu l&apos;opportunité de faire un stage en développement web,
           une expérience qui a consolidé mes compétences et mon expertise. Actuellement, je me tourne vers le game design,
-          un domaine qui me fascine profondément, et j&apos;ai hâte d&apos;apprendre et de développer de nouvelles compétences dans
+          un domaine qui me fascine profondément, et j&apos;ai hâte d&apos;apprendre et de développer de nouvelles compétences.
         </p>
       </section>
       
