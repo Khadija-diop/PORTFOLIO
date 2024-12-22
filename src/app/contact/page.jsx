@@ -9,7 +9,7 @@ export default function Contact() {
           <div className="flex items-center justify-between">
             <h1 className="text-4xl font-bold text-blue-900">Contactez-moi</h1>
             <a
-              href="/CV-khady-diop.pdf" 
+              href="/CV_Khady_Diop.pdf" 
               download="CV-khady-diop.pdf"
               className="bg-purple-500 text-white px-4 py-2 rounded-md hover:bg-purple-600 transition duration-300"
             >
